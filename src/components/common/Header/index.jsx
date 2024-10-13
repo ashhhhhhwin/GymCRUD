@@ -14,12 +14,12 @@ const Header = (props) => {
 
   return (
     <>
-      <nav className="header-nav bg- flex justify-content-between">
+      <nav className="header-nav bg-[#3c3c3c] flex justify-content-between">
         <div className="org-logo">
           <img src={orgLogo} />
         </div>
         {showLoginOrSignUp && (
-          <div className="action-buttons flex">
+          <div className="action-buttons flex justify-content-between">
             <Button
               type={"secondary"}
               onClick={loginHandler}
