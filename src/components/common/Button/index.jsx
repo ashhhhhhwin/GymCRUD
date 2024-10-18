@@ -5,7 +5,7 @@ const Button = (props) => {
     <>
       {type === "primary" && (
         <button
-          className="w-full pr-10 pl-10 text-white bg-yellow-300"
+          className="w-full h-10 pr-10 rounded-lg pl-10 text-white bg-yellow-300"
           onClick={onClick}
         >
           {label}
@@ -14,7 +14,7 @@ const Button = (props) => {
       {type === "secondary" && (
         <button
           onClick={onClick}
-          className="w-full pr-10 pl-10 outline-yellow-300 text-yellow-300 bg-white"
+          className="w-full h-10 pr-10 pl-10 rounded-lg outline-yellow-300 text-yellow-300 bg-white"
         >
           {label}
         </button>
