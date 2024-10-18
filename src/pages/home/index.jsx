@@ -24,9 +24,8 @@ const Home = () => {
             <Button type={"primary"} label={"Get Started"}></Button>
           </div>
         </div>
-
-        <div></div>
       </div>
+      <div className="programs bg-black">PROGRAMS</div>
     </>
   );
 };
