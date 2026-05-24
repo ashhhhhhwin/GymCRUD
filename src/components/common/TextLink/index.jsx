@@ -8,7 +8,7 @@ const TextLink = (props) => {
       {use === "primary" && (
         <a
           style={{ cursor: "pointer" }}
-          className={`text-link text-yellow-${chosen ? "100" : "500"}`}
+          className={`text-link text-yellow-500}`}
           onClick={OnClick}
         >
           {label}

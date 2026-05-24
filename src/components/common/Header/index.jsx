@@ -16,7 +16,6 @@ const Header = (props) => {
   const signUpHandler = () => {};
 
   const routeHandler = (pageChosen) => {
-    console.log("here");
     setChosenLink(pageChosen);
   };
 
